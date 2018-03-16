@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cotización de los servicios</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		    <link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+<style type="text/css">
+  blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: gray;   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    background-color: gray;
+    margin-top: 25px;
+    color:white;
+    height: 100px;
+    width: 600px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+
+}
+
+.quote-text{
+    
+    font-size: 19px;
+    margin-top: -12px;
+    margin-left: 12px;
+}
+
+
+</style>
+    </head>
+
+    <body>
+      
+
+      <div align="right" style="margin-top: 10px">
+      <a href="index.html">
+      <button type="btn" name="button" style="margin-top: 5px, margin-left:10px" style="{font-weight:bold, font-style:normal;}
+      {
+        font-weight: normal;
+        font-style: italic;
+        background-color:#FFF;
+        padding:2px;
+      }">Salir</button> 
+    </a>
+  </div>
+
+           
+          <h1><img style="margin-top: -60px"  src='images/jpets_.png' href="index.html"/></h1>
+         
+      
+        <!-- Top content -->
+                 <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text">
+                        <h1 style="color:white; font-size:50px">Cotiza los servicios con estas preguntas</h1>
+                        
+                    </div>
+                </div>
+
+        <div class="container" id="result" style="">
+          
+  <!-- Preguntas sobre la pagina web -->
+     <form method="POST" action="php/prueba.php">
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta1">
+        1.Necesitas realizar una consulta acerca de tu mascota? 
+      </p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta1" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta1" value="No">No</label>
+    </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta2">
+      2.Deseas realizarle profilaxis a tu mascota?
+      </p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta2" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta2" value="No">No</label>
+    </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta3">
+      3.Necesitas o deseas bañar a tu mascota?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta3" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta3" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta4">
+      4.Quieres o necesitas servicio de peluqueria para tu mascota?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta4" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta4" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta5">
+      5.Tu mascota necesita vacuna triple?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta5" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta5" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta6">
+      6.Necesitas una vacuna octuple para tu mascota?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta6" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta6" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta7">
+      7.Tu mascota necesita ser desparasitada?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta7" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta7" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta8">
+      8.Tu mascota necesita examenes de laboratorio?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta8" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta8" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta9">
+      9.Tu mascota necesita ser desparasitada?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta9" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta9" value="No">No</label>
+      </blockquote>
+
+<blockquote class="quote-box" style="width: 600px; margin-left:265px">
+      <p class="quotation-mark"></p>
+      <p class="quote-text" id="pregunta10">
+      10.Tu mascota necesita ser desparasitada?</p>
+      <hr>
+      <label class="radio-inline"><input type="radio" name="respuesta10" value="Si" checked>Si</label>
+      <label class="radio-inline"><input type="radio" name="respuesta10" value="No">No</label>
+      </blockquote>
+
+<button class="btn" type="submit">Continuar</button> 
+
+</form>
+</div>
+
+    <!-- Ventana modal para el registro del cliente -->
+<!--
+      <div class="modal fade" id="ventana2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Informacion del cliente</h4>
+          </div>
+            <div class="modal-body">
+              <form id="formu" method="post" action="php/objetos/objetocliente.php">
+                <div class="form-group has-success">
+                  <br>
+                  <div class="form-group row">
+                     <label class="col-sm-2 col-form-label">Nombre:</label>
+                     <div class="col-sm-10 col-md-8">
+                      <input class="form-control" type="text" name="nombre2" id="nombre1" required/>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                     <label class="col-sm-2 col-form-label">Apellido:</label>
+                     <div class="col-sm-10 col-md-8">
+                      <input class="form-control" type="text" name="apellido2" id="apellido1" required />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                     <label class="col-sm-2 col-form-label">Identificacion:</label>
+                     <div class="col-sm-10 col-md-8">
+                      <input class="form-control" type="text" min="7" maxlength="10" name="identificacion2" id="identificacion1" required/>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                     <label class="col-sm-2 col-form-label">Fecha:</label>
+                     <div class="col-sm-10 col-md-8">
+                      <input class="form-control" type="date" name="fecha2" id="fecha1" required/>
+                    </div>
+                  </div>
+
+                </div>
+                 <button type="submit" class="btn">Guardar</button>
+
+
+              </form>
+
+            </div>
+
+        </div>
+      </div>
+
+    </div>
+                   
+-->
+        <!-- Footer -->
+        <footer>
+        	<div class="container">
+        		<div class="row">
+        			
+        			<div class="col-sm-8 col-sm-offset-2">
+        				<div class="footer-border"></div>
+        				<p>Made by RAFAEL.</p>
+        			</div>
+        			
+        		</div>
+        	</div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
